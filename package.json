@@ -1,0 +1,26 @@
+{
+  "name": "first-nodejs",
+  "version": "0.0.1",
+  "description": "First node.js project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcanae/first-nodejs.git"
+  },
+  "keywords": [
+    "Simplon.co",
+    "Node.js"
+  ],
+  "author": "Arcanae <justin.courdesse@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arcanae/first-nodejs/issues"
+  },
+  "homepage": "https://github.com/arcanae/first-nodejs#readme",
+  "dependencies": {
+    "mysql": "^2.14.1"
+  }
+}
