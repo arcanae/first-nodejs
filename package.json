@@ -23,7 +23,9 @@
     "homepage": "https://github.com/arcanae/first-nodejs#readme",
     "dependencies": {
         "dev": "^0.1.3",
+        "express": "^4.15.4",
         "jquery": "^3.2.1",
+        "mustache": "^2.3.0",
         "mysql": "^2.14.1",
         "webpack": "^3.5.5"
     }
