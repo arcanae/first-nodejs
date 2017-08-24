@@ -4,17 +4,23 @@ const mustache = require('mustache');
 
 let app = express();
 
+let db = ["Toto", "Tata", "Titi", "John", "Tutu"];
+
+let names = "";
+for (value of db)  {
+    names += value + ' ';
+}
 app.get("/", function(req, resp) {
     resp.render('index', {
-        name: 'Arca',
+        name: names,
         adjective: 'best'
     });
 });
 
 app.get("/test", function(req, resp) {
     let str = mustache.render("Hello {{name}}!!! You are awesome!", {
-        name: "Arca"
-    })
+        name: names
+    });
     resp.send(str)
 });
 
